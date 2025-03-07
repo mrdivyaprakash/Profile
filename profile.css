@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+   
+}
+
+section{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+   padding-left: 500px;
+   padding-top: 75px;
+   
+   
+   
+}
+
+
+
+
+
+
+
+section>article{
+    height: 400px;
+   
+    width: 240px;
+    
+    border: 2px solid orange;
+    color: white;
+    background-color: gray;
+    
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px blue;
+    justify-content: center;
+   
+}
+
+article:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 0px 0px 20px cyan;
+    border-color: bisque;
+    background-color:black;
+}
+
+
+section>article>.pic{
+    height: 30%;
+    width: 100%;
+    /* background-color: aqua; */
+    padding-top: 7%;
+
+}
+
+
+
+
+section>article>.details{
+    height: 40%;
+    width: 100%;
+    /* background-color: red; */
+    text-align: center;
+
+}
+
+
+section>article>.descript{
+    height: 30%;
+    width: 100%;
+    /* background-color: blue; */
+    text-align: center;
+
+}
+
+
+section>article>.pic>div{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-left: 70px;
+    background-color: black;
+    background-image: url(../Dpk_photo\ \(1\).jpg);
+    background-size: cover;
+    box-shadow: 0px 0px 10px red;
+
+}
+
+
+section>article>.details>h6{
+    font-size: 20px;
+    color: aliceblue;
+    font-family:initial;
+    text-shadow: 2px 2px 2px blue;
+    
+    
+}
+
+
+section>article>.details>p{
+    font-size: 15px;
+    color: aliceblue;
+    text-shadow: 2px 2px 2px green;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+section>article>.descript>button{
+    height: 50px;
+    width: 80px;
+    color: wheat;
+    background-color: black;
+    border: 2px solid green;
+    font-size: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    
+    box-shadow: 0px 0px 10px pink;
+}
+section>article>.descript>button:hover{
+    box-shadow: 0px 0px 20px aqua;
+    cursor: pointer;
+    transform: scale(1.55);
+}
+
+
+
+
+
+
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 2px;
+}
+
+.social-icons>.whatsapp {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: black;
+    background-size: cover;
+    background-image: url(../whatsapp_logo_green.png);
+    box-shadow: 0px 0px 10px rgb(0, 234, 255);
+    transition: box-shadow 0.3s ease;
+}
+.social-icons>.insta {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: black;
+    background-size: cover;
+    background-image: url(../1ed6e0a9e69176a5fdb7e090a1046b86.jpg);
+    box-shadow: 0px 0px 10px rgb(0, 60, 255);
+    transition: box-shadow 0.3s ease;
+}
+
+.social-icons div:hover {
+    box-shadow: 0px 0px 20px lime;
+    cursor: pointer;
+}
+
